@@ -1,6 +1,6 @@
 module pglogrepl1
 
-go 1.21
+go 1.25.0
 
 require (
 	github.com/jackc/pglogrepl v0.0.0-20230826184802-9ed16cb201f6
@@ -30,9 +30,17 @@ require (
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	github.com/yosuke-furukawa/json5 v0.1.1 // indirect
 	github.com/zeebo/xxh3 v1.0.2 // indirect
-	golang.org/x/crypto v0.14.0 // indirect
+	golang.org/x/crypto v0.53.0 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
-	golang.org/x/sync v0.4.0 // indirect
-	golang.org/x/sys v0.13.0 // indirect
-	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/sync v0.21.0 // indirect
+	golang.org/x/sys v0.46.0 // indirect
+	golang.org/x/text v0.38.0 // indirect
 )
+
+exclude github.com/docker/docker v24.0.6+incompatible
+
+exclude github.com/docker/cli v24.0.6+incompatible
+
+exclude github.com/opencontainers/runc v1.1.9
+
+exclude github.com/gofiber/fiber/v2 v2.50.0
